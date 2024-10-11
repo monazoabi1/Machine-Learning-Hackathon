@@ -79,32 +79,4 @@ if __name__ == '__main__':
     output.to_csv(args.out, index=False)
     logging.info("Predictions saved to {}".format(args.out))
 
-    # plt.figure(figsize=(10, 6))
-    # plot_importance(model, max_num_features=10)
-    # plt.title('Feature Importance')
-    # plt.savefig('feature_importance.png')
-    # plt.show()
-    #
-    # plt.figure(figsize=(10, 6))
-    # plt.scatter(y_train, model.predict(X_train_poly), alpha=0.5)
-    # plt.xlabel('Actual Passengers Up')
-    # plt.ylabel('Predicted Passengers Up')
-    # plt.title('Actual vs. Predicted Passengers Up')
-    # plt.savefig('actual_vs_predicted.png')
-    # plt.show()
-    #
-    # plt.figure(figsize=(12, 8))
-    # corr = training_data[['line_id', 'direction', 'station_index', 'latitude', 'longitude']].corr()
-    # sns.heatmap(corr, annot=True, cmap='coolwarm', fmt=".2f")
-    # plt.title('Correlation Matrix of Features')
-    # plt.show()
-    # plt.savefig('correlation_matrix_features.png')
-    #
-    # feature = 'line_id'
-    # plt.figure(figsize=(10, 6))
-    # plt.scatter(training_data[feature], training_data['passengers_up'], alpha=0.5)
-    # plt.xlabel(feature)
-    # plt.ylabel('Passengers Up')
-    # plt.title(f'Scatter Plot of {feature} vs Passengers Up')
-    # plt.savefig(f'{feature}_vs_passengers_up.png')
-    # plt.show()
+
