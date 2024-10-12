@@ -33,4 +33,26 @@ A CSV file named `trip_duration_predictions.csv`, containing two columns:
 - `trip_id_unique` 
 - `trip_duration_in_minutes` 
 
-This output will predict the total trip duration in minutes..
+This output will predict the total trip duration in minutes.
+
+## Excuting
+To run the project, you can follow these general steps:
+
+1. **Install Dependencies:**
+   Ensure that all necessary libraries and dependencies are installed by running:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Run the Script:**
+   Execute the main script:
+   ```bash
+   python main.py
+   ```
+
+3. **Specify Input Files:**
+   Ensure you have the appropriate dataset files (e.g., `train_bus_schedule.csv`, `X_passengers_up.csv`, etc.), which should be placed in the correct directories. Follow the dataset section in the project documentation.
+
+4. **Output:**
+   The output will be saved in CSV format, such as `passengers_up_predictions.csv` or `trip_duration_predictions.csv`.
+
